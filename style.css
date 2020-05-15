@@ -1,0 +1,136 @@
+h1 { 
+    font-family: Comfortaa;
+     font-size: 24px;
+      font-style: normal;
+       font-variant: normal;
+        font-weight: 700;
+         line-height: 26.4px;
+         } 
+h3 {
+     font-family: Comfortaa;
+      font-size: 14px;
+       font-style: normal;
+        font-variant: normal;
+         font-weight: 700;
+          line-height: 15.4px; 
+        }
+
+p { 
+    font-family: "Open Sans";
+     font-size: 14px; font-style: normal;
+      font-variant: normal;
+       font-weight: 400;
+        line-height: 20px;
+     } 
+blockquote { 
+    font-family: "Open Sans";
+     font-size: 21px;
+      font-style: normal;
+       font-variant: normal;
+        font-weight: 400;
+         line-height: 30px;
+         } 
+pre { 
+    font-family: "Open Sans";
+     font-size: 13px;
+      font-style: normal;
+       font-variant: normal;
+        font-weight: 400;
+         line-height: 18.5714px; }
+
+header > h1{
+    background-color: yellow;
+}
+p{ 
+	font-size: 18px;
+	font-family: Georgia, serif;
+    color: rgb(53, 23, 23);
+    display: inline;
+    }
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    background-image: url("nico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    line-height: 120%;
+    max-width: 90%;
+    margin: auto;
+  }
+q {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: rgb(112, 112, 112);
+    border-left: 3px solid rgb(112, 33, 33);
+    padding-left: 30px;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+a:link {
+    color: red;
+  }
+  
+/* visited link */
+a:visited {
+    color: green;
+  }
+  
+/* mouse over link */
+a:hover {
+    color: hotpink;
+  }
+  
+/* selected link */
+a:active {
+    color: blue;
+  }
+.fermier {
+    background-color: yellow;
+  }
+.villageois {
+      background-color: saddlebrown;
+  }
+.bien {
+      color: green;
+      text-transform: uppercase;
+  }
+.mal {
+      color: rgb(255, 0, 0);
+      text-transform: uppercase;
+  }
+table {
+    border-collapse: collapse;
+  }
+  
+table, th, td {
+    border: 1px solid black;
+  }
+tr:nth-child(even) {
+      background-color: grey;
+    }
+tr:nth-child(odd) {
+        background-color: white;
+    }
+.li1:after {
+    content: url(bien.png);
+}
+.li2:after {
+    content: url(mal.png);
+}
+.li3:after {
+    content: url(chat.png);
+}
+.p1 {
+    font-weight: bold;
+}
+img {
+    float: right;
+    margin: 30px;
+}
